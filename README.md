@@ -1,5 +1,7 @@
-# Journal of Digital History Author's Repository
+# Readme
+## Rereading the Colonial Archive, Writing New Histories: Digital Decolonization and the GLOBALISE project
 
+## Original README text:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/C2DH/template_repo_JDH/main?filepath=article.ipynb)
 
 This repository serves as a resource for authors submitting articles to the [Journal of Digital History](https://journalofdigitalhistory.org).
