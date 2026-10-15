@@ -1,20 +1,21 @@
 # Report for article.ipynb ❤ 
 
+Look at the corrections you need to do, if not clear, contact jdh.admin@uni.lu
+
 ## Cell Counts   
-**all cells: 20 **  
-code_empty: 2   
-markdown: 14   
-code: 6   
+**all cells: 13**  
+code_empty: 0   
+markdown: 13   
 
 ## Action Outputs
 
 ### Size
-**total cells: 20**
+**total cells: 13**
 ## Kernel Checks: 
 
 > [!CAUTION]
- > Error: Python versions don't match. The notebook is using **python-3.7.10**, when **python-3.7
-** is required.
+ > Error: Python versions don't match. The notebook is using **python-3.14.3**, when **python-3.11** is required.
+
 > [!TIP]
  > Try changing **runtime.txt** to resolve the error above.
 
@@ -22,55 +23,63 @@ code: 6
 
 
 ### Check Output Sizes and Rules
-  - No valid tags found for image output  [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZDMkRIJTJGdGVtcGxhdGVfcmVwb19KREglMkZtYWluJTJGYXJ0aWNsZS5pcHluYg==?idx=7)- Table found in output of cell 19
-> First words of input cell: df = pd.read_csv("https://raw.githubusercontent.com/lux-org/lux-datasets/master/data/college.csv") df
 
-Total output size: 12.14 KB
-Total number of images: 1
-Total number of tables: 1
+Total output size: 0.00 KB
+Total number of images: 0
+Total number of tables: 0
+Total number of audios: 0
+
+| Mimetype | Presence |
+| --- | --- |
+| text/html | False |
+| text/plain | False |
+| image/png | False |
+| audio | False |
+
+| Output type | Presence |
+| --- | --- |
+| display_data | False |
+| execute_result | False |
+
+| Tag | Cell | Remark |
+| --- | --- | --- |
+
 
 ### Check HTML
 
 
 ### Check JavaScript
 No JavaScript code found in output cells.
-### Check JavaScript (plotly)
-**plotly** library is not present in **requirements.txt**
 
 
 ### Check Tags
 - Cell 1: Tags: ['title']
 - Cell 2: Tags: ['contributor']
 - Cell 3: Tags: ['contributor']
-- Cell 4: Tags: ['contributor']
-- Cell 5: Tags: ['copyright']
-- Cell 6: Tags: ['copyright']
-- Cell 7: Tags: ['cover']
-- Cell 8: Tags: ['disclaimer']
-- Cell 9: Tags: ['keywords']
-- Cell 10: Tags: ['abstract']
-- Cell 14: Tags: ['hermeneutics']
-- Cell 15: Tags: ['table-1']
-- Cell 16: Tags: ['hidden']
+- Cell 4: Tags: ['copyright']
+- Cell 5: Tags: ['disclaimer']
+- Cell 6: Tags: ['keywords']
+- Cell 7: Tags: ['abstract']
+> [!WARNING]
+> The following tags are missing or invalid
 
-All mandatory tags are present in the cells.
+#### Missing Tags:
+- cover
+> Make sure to fill this template document [license_to_publish_JDH.dotx](https://github.com/C2DH/journal-of-digital-history-ipynb-preflight-action/blob/master/license_to_publish_JDH.dotx) and send it to jdh.admin@uni.lu
 
 
 ### Check URLs
 
-**Invalid URLs (404 - 2):**
 
-Invalid URL (404): https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/
-Invalid URL (404): https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/
+**Impossible to verify (non-404 error code - 1):**
 
-**Impossible to verify (Other - 2):**
+Invalid URL (Other - 301): https://orcid.org/sites/default/files/images/orcid_16x16.png
 
-Invalid URL (Other - 301): https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/ORCID_ID
-Invalid URL (Other - 301): https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/ORCID_ID_IF_EXIST
+> [!TIP]
+> Even if some of the urls listed above don't seem to be broken, try to replace them with the valid ones as they might become unavailable soon.
 
-**Valid URLs (200 - 2):**
 
-Valid URL (200): https://creativecommons.org/licenses/by/4.0/
-Valid URL (200): https://creativecommons.org/licenses/by-nc-nd/4.0/
+**Valid URLs (200 - 1):**
 
+2. https://licensebuttons.net/l/by/4.0/88x31.png
 
