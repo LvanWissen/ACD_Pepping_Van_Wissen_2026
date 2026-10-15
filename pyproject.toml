@@ -1,0 +1,14 @@
+[project]
+name = "globalise-jdh-2027"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab-citation-manager>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
